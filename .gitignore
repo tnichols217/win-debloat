@@ -1,0 +1,6 @@
+.direnv
+result
+out
+target
+*.iso
+staging
