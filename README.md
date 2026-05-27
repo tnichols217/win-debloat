@@ -2,6 +2,12 @@
 
 Takes a stock Windows 10/11 ISO, strips bloatware at the WIM image level, and produces a clean bootable ISO — entirely on Linux, no Wine required.
 
+# WARNING:
+
+This project produces an ISO that will autoinstall upon booting! It installs Windows on the first disk available to the installer, NO CONFIRMATION.
+
+This was primarily build for VM installs on Linux, but should work in other places as well. If a non-autoinstall ISO variant is wanted, open an issue and tag me.
+
 ## What it does
 
 | Step | Tool used | What it removes / changes |
